@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Encode and decode text with UTF-9.
+"""Encode and decode text using UTF-9.
 
 On April 1st 2005, IEEE released the RFC4042 "UTF-9 and UTF-18 Efficient
 Transformation Formats of Unicode" (https://www.ietf.org/rfc/rfc4042.txt)
