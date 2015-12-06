@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 from bitarray import bitarray as _bitarray
@@ -24,5 +23,3 @@ def utf9decode(data):
             codepoint, string = '', string + codepoint.decode('utf-8')
         codepoint += chr(int(chunk[1:].to01(), 2))
     return string + codepoint.decode('utf-8')
-
-#print utf9decode(utf9encode(u'c豈iao'))
