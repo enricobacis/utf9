@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='utf9',
-      version='0.1',
+      version='0.2',
       description='Encode and decode text with UTF-9 (IEEE RFC4042)',
       install_requires=['bitarray'],
       url='http://github.com/enricobacis/utf9',
